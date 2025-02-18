@@ -29,14 +29,12 @@
 
 	<simpleType name="Gender">
 		<annotation>
-			<documentation>List of gender codes.
+			<documentation>List of sex codes. Sex means a person’s classification as male or female based on biological distinctions.
 			</documentation>
 		</annotation>
 		<restriction base="string">
 			<enumeration value="Male" />
 			<enumeration value="Female" />
-			<enumeration value="Unspecified" />
-			<enumeration value="Undifferentiated" />
 			<enumeration value="Unknown" />
 		</restriction>
 	</simpleType>
