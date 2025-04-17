@@ -27,7 +27,7 @@
 		</complexType>
 	</element>
 
-	<simpleType name="Gender">
+	<simpleType name="Sex">
 		<annotation>
 			<documentation>List of sex codes. Sex means a person’s classification as male or female based on biological distinctions.
 			</documentation>
@@ -128,9 +128,9 @@
 					<documentation>Birth Date is required for Subject accrual but is optional for Partial Subject accrual</documentation>
 				</annotation>
 			</element>
-			<element name="gender" type="tns:Gender" minOccurs="0">
+			<element name="sex" type="tns:Sex" minOccurs="0">
 				<annotation>
-					<documentation>Gender is required for Subject accrual but is optional for Partial Subject accrual</documentation>
+					<documentation>Sex is required for Subject accrual but is optional for Partial Subject accrual</documentation>
 				</annotation>
 			</element>
 			<element name="race" type="tns:Race" minOccurs="0" maxOccurs="7">
