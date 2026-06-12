@@ -1010,7 +1010,8 @@
 		<annotation>
 			<documentation>Represents a new or existing participating site on a
 				trial: this
-				includes organization information.
+				includes organization information. A participating site must be 
+				added to a trial for it to be imported from ClinicalTrials.gov
 			</documentation>
 		</annotation>
 	</element>
@@ -1556,7 +1557,8 @@
 		<annotation>
 			<documentation>Represents a new or existing participating site on a
 				trial: this
-				includes organization information.
+				includes organization information. A participating site must be 
+				added to a trial for it to be imported from ClinicalTrials.gov
 			</documentation>
 		</annotation>
 		<complexContent>
